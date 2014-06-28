@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB9D4D20195F5C51004E437D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D4D1F195F5C51004E437D /* Foundation.framework */; };
+		EB9D4D22195F5C51004E437D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D4D21195F5C51004E437D /* CoreGraphics.framework */; };
+		EB9D4D24195F5C51004E437D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D4D23195F5C51004E437D /* UIKit.framework */; };
+		EB9D4D2A195F5C51004E437D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB9D4D28195F5C51004E437D /* InfoPlist.strings */; };
+		EB9D4D2C195F5C51004E437D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D2B195F5C51004E437D /* main.m */; };
+		EB9D4D30195F5C51004E437D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D2F195F5C51004E437D /* AppDelegate.m */; };
+		EB9D4D33195F5C51004E437D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9D4D31195F5C51004E437D /* Main.storyboard */; };
+		EB9D4D36195F5C51004E437D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D35195F5C51004E437D /* ViewController.m */; };
+		EB9D4D38195F5C51004E437D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9D4D37195F5C51004E437D /* Images.xcassets */; };
+		EB9D4D3F195F5C51004E437D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D4D3E195F5C51004E437D /* XCTest.framework */; };
+		EB9D4D40195F5C51004E437D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D4D1F195F5C51004E437D /* Foundation.framework */; };
+		EB9D4D41195F5C51004E437D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D4D23195F5C51004E437D /* UIKit.framework */; };
+		EB9D4D49195F5C51004E437D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB9D4D47195F5C51004E437D /* InfoPlist.strings */; };
+		EB9D4D4B195F5C51004E437D /* Refresh_ScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D4A195F5C51004E437D /* Refresh_ScreenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB9D4D42195F5C51004E437D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB9D4D14195F5C51004E437D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB9D4D1B195F5C51004E437D;
+			remoteInfo = "Refresh Screen";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB9D4D1C195F5C51004E437D /* Refresh Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Refresh Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9D4D1F195F5C51004E437D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB9D4D21195F5C51004E437D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB9D4D23195F5C51004E437D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB9D4D27195F5C51004E437D /* Refresh Screen-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Refresh Screen-Info.plist"; sourceTree = "<group>"; };
+		EB9D4D29195F5C51004E437D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB9D4D2B195F5C51004E437D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB9D4D2D195F5C51004E437D /* Refresh Screen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Refresh Screen-Prefix.pch"; sourceTree = "<group>"; };
+		EB9D4D2E195F5C51004E437D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB9D4D2F195F5C51004E437D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB9D4D32195F5C51004E437D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB9D4D34195F5C51004E437D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB9D4D35195F5C51004E437D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB9D4D37195F5C51004E437D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB9D4D3D195F5C51004E437D /* Refresh ScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Refresh ScreenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9D4D3E195F5C51004E437D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB9D4D46195F5C51004E437D /* Refresh ScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Refresh ScreenTests-Info.plist"; sourceTree = "<group>"; };
+		EB9D4D48195F5C51004E437D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB9D4D4A195F5C51004E437D /* Refresh_ScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Refresh_ScreenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9D4D19195F5C51004E437D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D4D22195F5C51004E437D /* CoreGraphics.framework in Frameworks */,
+				EB9D4D24195F5C51004E437D /* UIKit.framework in Frameworks */,
+				EB9D4D20195F5C51004E437D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D4D3A195F5C51004E437D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D4D3F195F5C51004E437D /* XCTest.framework in Frameworks */,
+				EB9D4D41195F5C51004E437D /* UIKit.framework in Frameworks */,
+				EB9D4D40195F5C51004E437D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9D4D13195F5C51004E437D = {
+			isa = PBXGroup;
+			children = (
+				EB9D4D25195F5C51004E437D /* Refresh Screen */,
+				EB9D4D44195F5C51004E437D /* Refresh ScreenTests */,
+				EB9D4D1E195F5C51004E437D /* Frameworks */,
+				EB9D4D1D195F5C51004E437D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9D4D1D195F5C51004E437D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D4D1C195F5C51004E437D /* Refresh Screen.app */,
+				EB9D4D3D195F5C51004E437D /* Refresh ScreenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9D4D1E195F5C51004E437D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D4D1F195F5C51004E437D /* Foundation.framework */,
+				EB9D4D21195F5C51004E437D /* CoreGraphics.framework */,
+				EB9D4D23195F5C51004E437D /* UIKit.framework */,
+				EB9D4D3E195F5C51004E437D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB9D4D25195F5C51004E437D /* Refresh Screen */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D4D2E195F5C51004E437D /* AppDelegate.h */,
+				EB9D4D2F195F5C51004E437D /* AppDelegate.m */,
+				EB9D4D31195F5C51004E437D /* Main.storyboard */,
+				EB9D4D34195F5C51004E437D /* ViewController.h */,
+				EB9D4D35195F5C51004E437D /* ViewController.m */,
+				EB9D4D37195F5C51004E437D /* Images.xcassets */,
+				EB9D4D26195F5C51004E437D /* Supporting Files */,
+			);
+			path = "Refresh Screen";
+			sourceTree = "<group>";
+		};
+		EB9D4D26195F5C51004E437D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D4D27195F5C51004E437D /* Refresh Screen-Info.plist */,
+				EB9D4D28195F5C51004E437D /* InfoPlist.strings */,
+				EB9D4D2B195F5C51004E437D /* main.m */,
+				EB9D4D2D195F5C51004E437D /* Refresh Screen-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB9D4D44195F5C51004E437D /* Refresh ScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D4D4A195F5C51004E437D /* Refresh_ScreenTests.m */,
+				EB9D4D45195F5C51004E437D /* Supporting Files */,
+			);
+			path = "Refresh ScreenTests";
+			sourceTree = "<group>";
+		};
+		EB9D4D45195F5C51004E437D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9D4D46195F5C51004E437D /* Refresh ScreenTests-Info.plist */,
+				EB9D4D47195F5C51004E437D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9D4D1B195F5C51004E437D /* Refresh Screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9D4D4E195F5C51004E437D /* Build configuration list for PBXNativeTarget "Refresh Screen" */;
+			buildPhases = (
+				EB9D4D18195F5C51004E437D /* Sources */,
+				EB9D4D19195F5C51004E437D /* Frameworks */,
+				EB9D4D1A195F5C51004E437D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Refresh Screen";
+			productName = "Refresh Screen";
+			productReference = EB9D4D1C195F5C51004E437D /* Refresh Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB9D4D3C195F5C51004E437D /* Refresh ScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9D4D51195F5C51004E437D /* Build configuration list for PBXNativeTarget "Refresh ScreenTests" */;
+			buildPhases = (
+				EB9D4D39195F5C51004E437D /* Sources */,
+				EB9D4D3A195F5C51004E437D /* Frameworks */,
+				EB9D4D3B195F5C51004E437D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB9D4D43195F5C51004E437D /* PBXTargetDependency */,
+			);
+			name = "Refresh ScreenTests";
+			productName = "Refresh ScreenTests";
+			productReference = EB9D4D3D195F5C51004E437D /* Refresh ScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9D4D14195F5C51004E437D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Sony Theakanath";
+				TargetAttributes = {
+					EB9D4D3C195F5C51004E437D = {
+						TestTargetID = EB9D4D1B195F5C51004E437D;
+					};
+				};
+			};
+			buildConfigurationList = EB9D4D17195F5C51004E437D /* Build configuration list for PBXProject "Refresh Screen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB9D4D13195F5C51004E437D;
+			productRefGroup = EB9D4D1D195F5C51004E437D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9D4D1B195F5C51004E437D /* Refresh Screen */,
+				EB9D4D3C195F5C51004E437D /* Refresh ScreenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9D4D1A195F5C51004E437D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D4D38195F5C51004E437D /* Images.xcassets in Resources */,
+				EB9D4D2A195F5C51004E437D /* InfoPlist.strings in Resources */,
+				EB9D4D33195F5C51004E437D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D4D3B195F5C51004E437D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D4D49195F5C51004E437D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9D4D18195F5C51004E437D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D4D36195F5C51004E437D /* ViewController.m in Sources */,
+				EB9D4D30195F5C51004E437D /* AppDelegate.m in Sources */,
+				EB9D4D2C195F5C51004E437D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9D4D39195F5C51004E437D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9D4D4B195F5C51004E437D /* Refresh_ScreenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB9D4D43195F5C51004E437D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB9D4D1B195F5C51004E437D /* Refresh Screen */;
+			targetProxy = EB9D4D42195F5C51004E437D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB9D4D28195F5C51004E437D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9D4D29195F5C51004E437D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB9D4D31195F5C51004E437D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9D4D32195F5C51004E437D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB9D4D47195F5C51004E437D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9D4D48195F5C51004E437D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9D4D4C195F5C51004E437D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EB9D4D4D195F5C51004E437D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9D4D4F195F5C51004E437D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Refresh Screen/Refresh Screen-Prefix.pch";
+				INFOPLIST_FILE = "Refresh Screen/Refresh Screen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB9D4D50195F5C51004E437D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Refresh Screen/Refresh Screen-Prefix.pch";
+				INFOPLIST_FILE = "Refresh Screen/Refresh Screen-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB9D4D52195F5C51004E437D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Refresh Screen.app/Refresh Screen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Refresh Screen/Refresh Screen-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Refresh ScreenTests/Refresh ScreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB9D4D53195F5C51004E437D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Refresh Screen.app/Refresh Screen";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Refresh Screen/Refresh Screen-Prefix.pch";
+				INFOPLIST_FILE = "Refresh ScreenTests/Refresh ScreenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9D4D17195F5C51004E437D /* Build configuration list for PBXProject "Refresh Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9D4D4C195F5C51004E437D /* Debug */,
+				EB9D4D4D195F5C51004E437D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9D4D4E195F5C51004E437D /* Build configuration list for PBXNativeTarget "Refresh Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9D4D4F195F5C51004E437D /* Debug */,
+				EB9D4D50195F5C51004E437D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB9D4D51195F5C51004E437D /* Build configuration list for PBXNativeTarget "Refresh ScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9D4D52195F5C51004E437D /* Debug */,
+				EB9D4D53195F5C51004E437D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9D4D14195F5C51004E437D /* Project object */;
+}
