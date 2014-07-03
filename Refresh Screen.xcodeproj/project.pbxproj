@@ -21,6 +21,7 @@
 		EB9D4D41195F5C51004E437D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9D4D23195F5C51004E437D /* UIKit.framework */; };
 		EB9D4D49195F5C51004E437D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB9D4D47195F5C51004E437D /* InfoPlist.strings */; };
 		EB9D4D4B195F5C51004E437D /* Refresh_ScreenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D4A195F5C51004E437D /* Refresh_ScreenTests.m */; };
+		EB9D4D56195F5C6D004E437D /* RefresherView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9D4D55195F5C6D004E437D /* RefresherView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EB9D4D46195F5C51004E437D /* Refresh ScreenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Refresh ScreenTests-Info.plist"; sourceTree = "<group>"; };
 		EB9D4D48195F5C51004E437D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EB9D4D4A195F5C51004E437D /* Refresh_ScreenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Refresh_ScreenTests.m; sourceTree = "<group>"; };
+		EB9D4D54195F5C6D004E437D /* RefresherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefresherView.h; sourceTree = "<group>"; };
+		EB9D4D55195F5C6D004E437D /* RefresherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefresherView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				EB9D4D2E195F5C51004E437D /* AppDelegate.h */,
 				EB9D4D2F195F5C51004E437D /* AppDelegate.m */,
 				EB9D4D31195F5C51004E437D /* Main.storyboard */,
+				EB9D4D54195F5C6D004E437D /* RefresherView.h */,
+				EB9D4D55195F5C6D004E437D /* RefresherView.m */,
 				EB9D4D34195F5C51004E437D /* ViewController.h */,
 				EB9D4D35195F5C51004E437D /* ViewController.m */,
 				EB9D4D37195F5C51004E437D /* Images.xcassets */,
@@ -252,6 +257,7 @@
 				EB9D4D36195F5C51004E437D /* ViewController.m in Sources */,
 				EB9D4D30195F5C51004E437D /* AppDelegate.m in Sources */,
 				EB9D4D2C195F5C51004E437D /* main.m in Sources */,
+				EB9D4D56195F5C6D004E437D /* RefresherView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Refresh Screen/Refresh Screen-Prefix.pch";
 				INFOPLIST_FILE = "Refresh Screen/Refresh Screen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Refresh Screen/Refresh Screen-Prefix.pch";
 				INFOPLIST_FILE = "Refresh Screen/Refresh Screen-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +464,7 @@
 				EB9D4D50195F5C51004E437D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EB9D4D51195F5C51004E437D /* Build configuration list for PBXNativeTarget "Refresh ScreenTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +473,7 @@
 				EB9D4D53195F5C51004E437D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "RefresherView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    RefresherView *test = [[RefresherView alloc] init];
+    [self.view addSubview:test];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
