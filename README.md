@@ -11,4 +11,6 @@ Call this line:
 
     RefresherView *test = [[RefresherView alloc] init];
 
-Calling this will create an Refesher Loader automatically centered on your screen.
+Calling this will create an Refesher Loader automatically centered on your screen:
+
+![alt tag](http://i.imgur.com/YjAQooQ.png)
